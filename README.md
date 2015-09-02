@@ -616,7 +616,11 @@ You can workaround it manually by running
 ```bash
 $ rake assets:clobber
 ```
-to clear the asset cache.  
+to clear the asset cache.
+**Or**
+```bash
+$ rake tmp:cache:clear
+```
 **Or**  
 Change something in existing locale file.  
 **Or**  
